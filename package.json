@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "ncc build src/main.js -o dist && mv dist/index.js dist/index.cjs && rm -f dist/package.json"
+    "build": "npm pkg delete type && ncc build src/main.js -o dist && npm pkg set type=module"
   },
   "repository": {
     "type": "git",
