@@ -1,7 +1,7 @@
 {
   "name": "skills-write-javascript-actions",
   "version": "1.0.0",
-  "description": "<img src=\"https://octodex.github.com/images/Professortocat_v2.png\" align=\"right\" height=\"200px\" />",
+  "description": "Dad Jokes GitHub Action Project",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
